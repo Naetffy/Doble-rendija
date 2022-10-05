@@ -16,7 +16,7 @@ def Create_G(N_Nodes,Slits):
                 Fila.append(j)
             else:
                 if j>0 and j<=Slits:
-                    print("Con que probabilidad da la bala en el objetivo ",i-Slits," desde la rendija ",j,"(Numeros decimales.)")
+                    print("Con que probabilidad da el foton en el objetivo ",i-Slits," desde la rendija ",j,"(Numeros decimales.)")
                     prob=float(input())
                     Fila.append(round(prob,2))    
                 elif j==i:
